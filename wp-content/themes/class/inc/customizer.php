@@ -21,67 +21,67 @@ function coursepress_customize_register( $wp_customize ) {
     $colors[] = array(
         'slug' => 'body_text_color',
         'default' => '#878786',
-        'label' => __( 'Body Text Color', 'cp' )
+        'label' => __( 'Body Text Color', "coursepress" )
     );
 
     $colors[] = array(
         'slug' => 'content_text_color',
         'default' => '#666666',
-        'label' => __( 'Content Text Color', 'cp' )
+        'label' => __( 'Content Text Color', "coursepress" )
     );
 
     $colors[] = array(
         'slug' => 'content_header_color',
         'default' => '#878786',
-        'label' => __( 'Content Header Color', 'cp' )
+        'label' => __( 'Content Header Color', "coursepress" )
     );
 
     $colors[] = array(
         'slug' => 'content_link_color',
         'default' => '#1cb8ea',
-        'label' => __( 'Content Links Color', 'cp' )
+        'label' => __( 'Content Links Color', "coursepress" )
     );
 
     $colors[] = array(
         'slug' => 'content_link_hover_color',
         'default' => '#1cb8ea',
-        'label' => __( 'Content Links Hover Color', 'cp' )
+        'label' => __( 'Content Links Hover Color', "coursepress" )
     );
 
     $colors[] = array(
         'slug' => 'main_navigation_link_color',
         'default' => '#666',
-        'label' => __( 'Main Navigation Links Color', 'cp' )
+        'label' => __( 'Main Navigation Links Color', "coursepress" )
     );
 
     $colors[] = array(
         'slug' => 'main_navigation_link_hover_color',
         'default' => '#74d1d4',
-        'label' => __( 'Main Navigation Links Hover Color', 'cp' )
+        'label' => __( 'Main Navigation Links Hover Color', "coursepress" )
     );
 
     $colors[] = array(
         'slug' => 'footer_background_color',
         'default' => '#f2f6f8',
-        'label' => __( 'Footer Background Color', 'cp' )
+        'label' => __( 'Footer Background Color', "coursepress" )
     );
 
     $colors[] = array(
         'slug' => 'footer_link_color',
         'default' => '#83abb6',
-        'label' => __( 'Footer Links Color', 'cp' )
+        'label' => __( 'Footer Links Color', "coursepress" )
     );
 
     $colors[] = array(
         'slug' => 'footer_link_hover_color',
         'default' => '#74d1d4',
-        'label' => __( 'Footer Links Hover Color', 'cp' )
+        'label' => __( 'Footer Links Hover Color', "coursepress" )
     );
 
     $colors[] = array(
         'slug' => 'widget_title_color',
         'default' => '#c0c21e',
-        'label' => __( 'Widgets Title Color', 'cp' )
+        'label' => __( 'Widgets Title Color', "coursepress" )
     );
 
     sort( $colors );
@@ -115,14 +115,14 @@ function coursepress_customize_register( $wp_customize ) {
     ) );
 
     $wp_customize->add_section( 'cp_logo_section', array(
-        'title' => __( 'Logo', 'cp' ),
+        'title' => __( 'Logo', "coursepress" ),
         'priority' => 1,
     ) );
 
     $wp_customize->add_control(
             new WP_Customize_Image_Control(
             $wp_customize, 'logo', array(
-        'label' => __( 'Upload a logo', 'cp' ),
+        'label' => __( 'Upload a logo', "coursepress" ),
         'section' => 'cp_logo_section',
         'settings' => 'coursepress_logo',
             )

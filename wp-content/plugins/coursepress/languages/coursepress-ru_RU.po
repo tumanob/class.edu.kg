@@ -8,7 +8,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"PO-Revision-Date: 2015-10-13 10:01+0600\n"
+"PO-Revision-Date: 2015-10-23 10:54+0600\n"
 "Last-Translator: \n"
 "Language-Team: tumanov <support@wpmudev.org>\n"
 "X-Generator: Poedit 1.6.9\n"
@@ -100,7 +100,7 @@ msgstr ""
 #: includes/admin-pages/notifications-details.php:89
 #: includes/admin-pages/notifications.php:216
 msgid "All Courses"
-msgstr ""
+msgstr "Все Классы"
 
 #: coursepress.php:3463
 msgid ""
@@ -161,7 +161,7 @@ msgstr ""
 #: includes/classes/class.shortcodes.php:2449
 #: themes/coursepress/content-course-overview.php:92
 msgid "Instructors"
-msgstr "Преподаватель"
+msgstr "Учитель"
 
 #: coursepress.php:3590 includes/admin-pages/courses-details.php:122
 #: includes/admin-pages/courses.php:244 includes/admin-pages/courses.php:336
@@ -241,7 +241,7 @@ msgstr ""
 #: themes/coursepress/inc/template-tags.php:154
 #: themes/coursepress/inc/template-tags.php:179
 msgid "Edit"
-msgstr ""
+msgstr "Редактировать"
 
 #: coursepress.php:3660 coursepress.php:3664
 #: includes/admin-pages/courses.php:349
@@ -609,7 +609,7 @@ msgstr ""
 
 #: coursepress.php:4862
 msgid "Passwords mismatch."
-msgstr ""
+msgstr "Пароль"
 
 #: coursepress.php:4863
 msgid "Password must be at least %d characters in length."
@@ -992,7 +992,7 @@ msgstr "Заголовок"
 #: includes/admin-pages/student-workbook.php:187
 #: includes/classes/class.shortcodes.php:4395
 msgid "Submitted"
-msgstr ""
+msgstr "Пройден"
 
 #: includes/admin-pages/assessment.php:340
 #: includes/admin-pages/student-workbook.php:188
@@ -1007,7 +1007,7 @@ msgstr ""
 #: includes/admin-pages/student-workbook.php:189
 #: includes/classes/class.shortcodes.php:4397
 msgid "Grade"
-msgstr ""
+msgstr "Оценка"
 
 #: includes/admin-pages/assessment.php:342
 #: includes/admin-pages/student-workbook.php:190
@@ -1015,7 +1015,7 @@ msgstr ""
 #: includes/classes/class.shortcodes.php:4398
 #: includes/classes/class.shortcodes.php:4400
 msgid "Comment"
-msgstr ""
+msgstr "Комментарий"
 
 #: includes/admin-pages/assessment.php:449
 #: includes/admin-pages/student-workbook.php:280
@@ -1038,7 +1038,7 @@ msgstr ""
 #: includes/admin-pages/student-workbook.php:294
 #: includes/classes/class.shortcodes.php:4401
 msgid "View"
-msgstr ""
+msgstr "Просмотреть"
 
 #: includes/admin-pages/assessment.php:493
 #: includes/admin-pages/reports.php:139
@@ -1300,7 +1300,7 @@ msgstr ""
 
 #: includes/admin-pages/courses-details-overview.php:541
 msgid "Free Preview"
-msgstr ""
+msgstr "Предпросмотр"
 
 #: includes/admin-pages/courses-details-overview.php:542
 msgid "Time"
@@ -1400,7 +1400,7 @@ msgstr ""
 #: includes/templates/popup-window-signup.php:10
 #: includes/templates/student-settings.php:57
 msgid "First Name"
-msgstr ""
+msgstr "Имя"
 
 #: includes/admin-pages/courses-details-overview.php:880
 #: includes/admin-pages/courses-details-overview.php:881
@@ -1412,7 +1412,7 @@ msgstr ""
 #: includes/templates/popup-window-signup.php:14
 #: includes/templates/student-settings.php:64
 msgid "Last Name"
-msgstr ""
+msgstr "Фамилия"
 
 #: includes/admin-pages/courses-details-overview.php:882
 #: includes/admin-pages/courses-details-students.php:525
@@ -1456,7 +1456,7 @@ msgstr ""
 
 #: includes/admin-pages/courses-details-overview.php:952
 msgid "Enrollment Dates"
-msgstr ""
+msgstr "Даты записи"
 
 #: includes/admin-pages/courses-details-overview.php:957
 msgid "Users can enroll at any time"
@@ -1598,7 +1598,7 @@ msgstr ""
 #: includes/classes/class.course.unit.module.php:621
 #: includes/classes/class.course.unit.module.php:626
 msgid "Done"
-msgstr ""
+msgstr "Закончить"
 
 #: includes/admin-pages/courses-details-overview.php:1298
 msgid "Show Grades Page for Students"
@@ -1654,7 +1654,7 @@ msgstr ""
 #: includes/templates/popup-window-signup.php:18
 #: includes/templates/student-settings.php:78
 msgid "Username"
-msgstr ""
+msgstr "Имя пользователя на сайте"
 
 #: includes/admin-pages/courses-details-students.php:159
 #: includes/admin-pages/instructors.php:118
@@ -1677,7 +1677,7 @@ msgstr ""
 #: includes/classes/class.shortcodes.php:1906
 #: includes/classes/class.shortcodes.php:2861
 msgid "Withdraw"
-msgstr ""
+msgstr "Отменить"
 
 #: includes/admin-pages/courses-details-students.php:221
 #: includes/admin-pages/courses-details-students.php:262
@@ -1984,7 +1984,7 @@ msgstr ""
 
 #: includes/admin-pages/discussions.php:221
 msgid "No discussions found."
-msgstr ""
+msgstr "Нет обсуждений."
 
 #: includes/admin-pages/instructors-profile.php:50
 msgid "0 courses assigned to the instructor"
@@ -3083,7 +3083,7 @@ msgstr ""
 #: includes/admin-pages/settings.php:94
 #: includes/classes/class.discussion.php:39
 msgid "General"
-msgstr ""
+msgstr "Общий"
 
 #: includes/admin-pages/settings-instructor-capabilities.php:66
 msgid "Posts and Pages"
@@ -4364,7 +4364,7 @@ msgstr ""
 #: includes/classes/class.shortcodes.php:4201
 #: includes/templates/student-settings.php:92
 msgid "Confirm Password"
-msgstr ""
+msgstr "Повторить пароль"
 
 #: includes/admin-pages/student-profile.php:12
 #: includes/admin-pages/student-workbook.php:12
@@ -5009,7 +5009,7 @@ msgstr ""
 #: includes/templates/page-add-new-discussion.php:50
 #: themes/coursepress/page-add-new-discussion.php:61
 msgid "Cancel"
-msgstr ""
+msgstr "Отмена"
 
 #: includes/classes/class.course.unit.module.php:1103
 msgid "(1 attempt remaining)"
@@ -5021,11 +5021,11 @@ msgstr ""
 
 #: includes/classes/class.course.unit.module.php:1115
 msgid "Graded: "
-msgstr ""
+msgstr "Оценка:"
 
 #: includes/classes/class.course.unit.module.php:1119
 msgid "Passed"
-msgstr ""
+msgstr "Пройдено"
 
 #: includes/classes/class.course.unit.module.php:1124
 msgid "Not yet passed"
@@ -5037,7 +5037,7 @@ msgstr ""
 
 #: includes/classes/class.course.unit.module.php:1138
 msgid "%d of %d correct"
-msgstr ""
+msgstr "%d из %d правильные"
 
 #: includes/classes/class.course.unit.module.php:1152
 msgid "Grade Pending."
@@ -5246,7 +5246,7 @@ msgstr ""
 #: includes/classes/class.shortcodes.php:527
 #: includes/classes/class.shortcodes.php:632
 msgid "Enroll Anytime"
-msgstr ""
+msgstr "В любое время"
 
 #: includes/classes/class.shortcodes.php:573
 msgid "Enrollment End Date: "
@@ -5258,7 +5258,7 @@ msgstr ""
 
 #: includes/classes/class.shortcodes.php:627
 msgid "Enrollment Dates: "
-msgstr ""
+msgstr "Даты записи:"
 
 #: includes/classes/class.shortcodes.php:628
 msgid "You Enrolled on: "
@@ -5287,7 +5287,7 @@ msgstr "Б.оплаты"
 
 #: includes/classes/class.shortcodes.php:859
 msgid "Course Language: "
-msgstr ""
+msgstr "Язык:"
 
 #: includes/classes/class.shortcodes.php:902
 msgid "Course Category: "
@@ -5304,7 +5304,7 @@ msgstr ""
 #: includes/classes/class.shortcodes.php:1006
 #: themes/coursepress/content-course-overview.php:43
 msgid "Who can Enroll: "
-msgstr ""
+msgstr "Кто может записаться:"
 
 #: includes/classes/class.shortcodes.php:1009
 msgid "Students are added by instructors."
@@ -5384,7 +5384,7 @@ msgstr "Продолжить"
 
 #: includes/classes/class.shortcodes.php:1536
 msgid "Free"
-msgstr ""
+msgstr "Посмотреть"
 
 #: includes/classes/class.shortcodes.php:1725
 msgid "Find out more."
@@ -5408,7 +5408,7 @@ msgstr ""
 
 #: includes/classes/class.shortcodes.php:2072
 msgid "Manage Course"
-msgstr ""
+msgstr "Управление классом"
 
 #: includes/classes/class.shortcodes.php:2274
 msgid "here"
@@ -5582,7 +5582,7 @@ msgstr ""
 #: includes/classes/class.shortcodes.php:4396
 #: includes/unit-modules/radio_input.php:223
 msgid "Answer"
-msgstr ""
+msgstr "Ответ"
 
 #: includes/classes/class.shortcodes.php:4404
 msgid "Pending"
@@ -5598,7 +5598,7 @@ msgstr ""
 
 #: includes/classes/class.shortcodes.php:4407
 msgid "Correct"
-msgstr ""
+msgstr "Правильно"
 
 #: includes/classes/class.shortcodes.php:4408
 msgid "Incorrect"
@@ -5802,7 +5802,7 @@ msgstr ""
 #: includes/templates/course-discussion-archive.php:21
 #: themes/coursepress/archive-discussions.php:28
 msgid "Ask a Question"
-msgstr ""
+msgstr "Задать вопрос"
 
 #: includes/templates/course-discussion-archive.php:45
 #: includes/templates/course-discussion-archive.php:61
@@ -5883,7 +5883,7 @@ msgstr ""
 #: includes/templates/page-add-new-discussion.php:42
 #: themes/coursepress/page-add-new-discussion.php:54
 msgid "Course General"
-msgstr ""
+msgstr "В общем о курсе"
 
 #: includes/templates/page-add-new-discussion.php:44
 #: includes/unit-modules/checkbox_input.php:212
@@ -5894,17 +5894,17 @@ msgstr ""
 #: includes/templates/page-add-new-discussion.php:45
 #: themes/coursepress/page-add-new-discussion.php:57
 msgid "Title of your question"
-msgstr ""
+msgstr "Заголовок вопроса"
 
 #: includes/templates/page-add-new-discussion.php:46
 #: themes/coursepress/page-add-new-discussion.php:58
 msgid "Question description..."
-msgstr ""
+msgstr "Суть вопроса..."
 
 #: includes/templates/page-add-new-discussion.php:48
 #: themes/coursepress/page-add-new-discussion.php:60
 msgid "Ask this Question"
-msgstr ""
+msgstr "Задать вопрос"
 
 #: includes/templates/page-inbox.php:11
 #: includes/templates/page-new-message.php:14
@@ -5981,7 +5981,7 @@ msgstr ""
 
 #: includes/templates/student-dashboard.php:21
 msgid "Courses you manage:"
-msgstr ""
+msgstr "Вы ведете классы:"
 
 #: includes/templates/student-dashboard.php:36
 msgid "You are not enrolled in any courses."
@@ -6013,7 +6013,7 @@ msgstr ""
 
 #: includes/templates/student-settings.php:86
 msgid "Won't change if empty."
-msgstr ""
+msgstr "Не измениться если поле пустое"
 
 #: includes/unit-modules/audio.php:86 includes/unit-modules/chat.php:60
 #: includes/unit-modules/checkbox_input.php:195
@@ -6471,7 +6471,7 @@ msgstr ""
 #: themes/coursepress/comments-discussion.php:69
 #: themes/coursepress/comments-discussion.php:72
 msgid "Answer the Question"
-msgstr ""
+msgstr "Ответить на вопрос"
 
 #: themes/coursepress/comments-discussion.php:70
 msgid "Leave a Reply to %s"
@@ -6587,7 +6587,7 @@ msgstr ""
 
 #: themes/coursepress/content.php:66
 msgid "% Comments"
-msgstr ""
+msgstr "%  Комментариев"
 
 #: themes/coursepress/functions.php:80
 msgid "Primary Menu"

@@ -15,7 +15,7 @@ $course_language = $course->details->course_language;
     <header class="entry-header">
         <h1 class="entry-title"><?php the_title(); ?></h1>
         <div class="instructors-content">
-			<?php echo do_shortcode( '[course_instructors list="true" link="true"]' ); ?>
+			         <?php //echo do_shortcode( '[course_instructors list="true" link="true"]' ); ?>
         </div>
     </header><!-- .entry-header -->
 
@@ -40,10 +40,18 @@ $course_language = $course->details->course_language;
 				<?php echo do_shortcode( '[course_dates show_alt_display="yes"]' ); //change to yes for 'Open-ended' ?>
 				<?php echo do_shortcode( '[course_enrollment_dates show_alt_display="no"]' ); //change to yes for 'Open-ended' ?>
 				<?php echo do_shortcode( '[course_class_size]' ); ?>
-				<?php echo do_shortcode( '[course_enrollment_type label="'.__('Who can Enroll: ', 'coursepress').'"]' ); ?>
+				<?php //echo do_shortcode( '[course_enrollment_type label="'.__('Who can Enroll: ', 'coursepress').'"]' ); ?>
 				<?php echo do_shortcode( '[course_language]' ); ?>
-				<?php echo do_shortcode( '[course_cost]' ); ?>
-
+				<?php //echo do_shortcode( '[course_cost]' ); ?>
+        <section id="additional-summary course-box">
+            <div class="social-shares">
+                <!-- <strong class="label"><?php _e( 'SHARE', 'coursepress' ); ?></strong> -->
+                <a href="http://www.facebook.com/sharer/sharer.php?s=100&p[url]=<?php the_permalink(); ?>&p[images][0]=&p[title]=<?php the_title(); ?>&p[summary]=<?php echo urlencode( strip_tags( get_the_excerpt() ) ); ?>" class="facebook-share" target="_blank"></a>
+                <a href="http://twitter.com/home?status=<?php the_title(); ?> <?php the_permalink(); ?>" class="twitter-share" target="_blank"></a>
+                <a href="https://plus.google.com/share?url=<?php the_permalink(); ?>" class="google-share" target="_blank"></a>
+                <a href="mailto:?subject=<?php the_title(); ?>&body=<?php echo strip_tags( get_the_excerpt() ); ?>" target="_top" class="email-share"></a>
+            </div><!--social shares-->
+        </section>
             </div><!--course-box-->
             <div class="quick-course-info">
 				<?php // echo do_shortcode('[course_details field="button"]'); ?>
@@ -52,22 +60,14 @@ $course_language = $course->details->course_language;
         </div>
     </section>
 
-    <section id="additional-summary">
-        <div class="social-shares">
-            <span><?php _e( 'SHARE', 'coursepress' ); ?></span>
-            <a href="http://www.facebook.com/sharer/sharer.php?s=100&p[url]=<?php the_permalink(); ?>&p[images][0]=&p[title]=<?php the_title(); ?>&p[summary]=<?php echo urlencode( strip_tags( get_the_excerpt() ) ); ?>" class="facebook-share" target="_blank"></a>
-            <a href="http://twitter.com/home?status=<?php the_title(); ?> <?php the_permalink(); ?>" class="twitter-share" target="_blank"></a>
-            <a href="https://plus.google.com/share?url=<?php the_permalink(); ?>" class="google-share" target="_blank"></a>
-            <a href="mailto:?subject=<?php the_title(); ?>&body=<?php echo strip_tags( get_the_excerpt() ); ?>" target="_top" class="email-share"></a>
-        </div><!--social shares-->
-    </section>
+
 
     <br clear="all" />
 
 	<?php
 	$instructors = Course::get_course_instructors( $course->details->ID );
 	?>
-    <div class="entry-content <?php echo( count( $instructors ) > 0 ? 'left-content' : '' ); ?>">
+    <div class="entry-content col-md-9 <?php echo( count( $instructors ) > 0 ? 'left-content' : '' ); ?>">
         <h1 class="h1-about-course"><?php _e( 'About the Course', 'coursepress' ); ?></h1>
 		<?php the_content(); ?>
 		<?php if ( $course->details->course_structure_options == 'on' ) { ?>
@@ -88,7 +88,7 @@ $course_language = $course->details->course_language;
     </div><!-- .entry-content -->
 
 	<?php if ( count( $instructors ) > 0 ) { ?>
-		<div class="course-instructors right-content">
+		<div class="course-instructors right-content col-md-3">
 			<h1 class="h1-instructors"><?php _e( 'Instructors', 'coursepress' ); ?></h1>
 			<script>
 				jQuery( function() {
@@ -119,7 +119,7 @@ $course_language = $course->details->course_language;
 						<p>
 							<?php echo author_description_excerpt( $instructor->ID, 50 ); ?>
 						</p>
-						<a href="<?php echo do_shortcode( '[instructor_profile_url instructor_id="' . $instructor->ID . '"]' ); ?>" class="full-instructor-profile"><?php _e( 'View Full Profile', 'cp' ); ?></a>
+						<a href="<?php echo do_shortcode( '[instructor_profile_url instructor_id="' . $instructor->ID . '"]' ); ?>" class="full-instructor-profile"><?php _e( 'View Full Profile', 'coursepress' ); ?></a>
 					</div>
 				<?php } ?>
 			</div>
@@ -141,7 +141,7 @@ $course_language = $course->details->course_language;
 			if ( '' != $tag_list ) {
 				$meta_text = __( 'This entry was tagged %2$s. Bookmark the <a href="%3$s" rel="bookmark">permalink</a>.', 'coursepress' );
 			} else {
-				//$meta_text = __( 'Bookmark the <a href="%3$s" rel="bookmark">permalink</a>.', 'cp' );
+				//$meta_text = __( 'Bookmark the <a href="%3$s" rel="bookmark">permalink</a>.', "coursepress" );
 				$meta_text = '';
 			}
 		} else {

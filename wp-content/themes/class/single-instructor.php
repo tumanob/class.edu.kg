@@ -23,7 +23,7 @@ $assigned_courses = $instructor->get_assigned_courses_ids('publish');
 	echo get_user_meta( $user->ID, 'description', true );
         ?>
 
-        <h2 class="h2-instructor-bio"><?php _e('Courses', 'cp'); ?></h2>
+        <h2 class="h2-instructor-bio"><?php _e('Courses', "coursepress"); ?></h2>
 
         <?php
         // Course List

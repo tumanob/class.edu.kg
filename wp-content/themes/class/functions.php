@@ -64,7 +64,7 @@ if ( !function_exists( 'coursepress_setup' ) ) :
 		 * If you're building a theme based on CoursePress, use a find and replace
 		 * to change 'coursepress' to the name of your theme in all the template files
 		 */
-		load_theme_textdomain( 'cp', get_template_directory() . '/languages' );
+		load_theme_textdomain( "coursepress", get_template_directory() . '/languages' );
 
 		// Add default posts and comments RSS feed links to head.
 		add_theme_support( 'automatic-feed-links' );
@@ -77,11 +77,11 @@ if ( !function_exists( 'coursepress_setup' ) ) :
 		//add_theme_support( 'post-thumbnails' );
 		// This theme uses wp_nav_menu() in one location.
 		register_nav_menus( array(
-			'primary' => __( 'Primary Menu', 'cp' ),
+			'primary' => __( 'Primary Menu', "coursepress" ),
 		) );
 
 		register_nav_menus( array(
-			'secondary' => __( 'Footer Menu', 'cp' ),
+			'secondary' => __( 'Footer Menu', "coursepress" ),
 		) );
 
 		// Enable support for Post Formats.
@@ -107,7 +107,7 @@ add_action( 'after_setup_theme', 'coursepress_setup' );
  */
 function coursepress_widgets_init() {
 	register_sidebar( array(
-		'name'			 => __( 'Sidebar', 'cp' ),
+		'name'			 => __( 'Sidebar', "coursepress" ),
 		'id'			 => 'sidebar-1',
 		'before_widget'	 => '<aside id="%1$s" class="widget %2$s">',
 		'after_widget'	 => '</aside>',
@@ -116,7 +116,7 @@ function coursepress_widgets_init() {
 	) );
 
 	register_sidebar( array(
-		'name'			 => __( 'Footer', 'cp' ),
+		'name'			 => __( 'Footer', "coursepress" ),
 		'id'			 => 'sidebar-2',
 		'before_widget'	 => '<aside id="%1$s" class="widget col-md-4 col-xs-12 col-sm-6 %2$s">',
 		'after_widget'	 => '</aside>',

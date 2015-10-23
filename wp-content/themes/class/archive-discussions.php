@@ -73,7 +73,7 @@ get_header();
                                     $discussion_unit = '<a href="' . $unit->get_permalink() . '">' . $discussion->get_unit_name() . '</a>';
                                 }
                                 ?>
-                                <span><?php echo get_the_date(); ?></span> | <span><?php the_author(); ?></span> | <span><?php echo $discussion_unit; ?></span> | <span><?php echo get_comments_number(); ?> <?php _e('Comments', 'cp'); ?></span>
+                                <span><?php echo get_the_date(); ?></span> | <span><?php the_author(); ?></span> | <span><?php echo $discussion_unit; ?></span> | <span><?php echo get_comments_number(); ?> <?php _e('Comments', 'coursepress'); ?></span>
                             </div>
                             <div class="clearfix"></div>
                         </div>
@@ -83,7 +83,7 @@ get_header();
                 endwhile;
             } else {
                 ?>
-                <h1 class="zero-course-units"><?php _e("0 discussions. Start one, ask a question.", "cp"); ?></h1>
+                <h1 class="zero-course-units"><?php _e("0 discussions. Start one, ask a question.", "coursepress"); ?></h1>
                 <?php
             }
             ?>
