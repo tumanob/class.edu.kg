@@ -937,9 +937,10 @@ a.rsswidget{
     width: 235px;
     height: 225px;
     overflow: hidden;
-    border-right: 2px solid #dce163;
+    border-right: 2px solid #1cb8ea;
     float: left;
 }
+
 
 .post-type-archive-course article.type-course figcaption{
     position: absolute;
