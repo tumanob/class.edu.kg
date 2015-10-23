@@ -38,12 +38,12 @@ $course_language = $course->details->course_language;
 			</div><!-- .entry-summary -->
 		<?php else : ?>
 			<div class="entry-content <?php echo $extended_class; ?>">
-				<div class="instructors-content">
+				<!-- <div class="instructors-content">
 					<?php
 					// Flat hyperlinked list of instructors
 					echo do_shortcode( '[course_instructors style="list-flat" link="true"]' );
 					?>
-				</div>
+				</div> -->
 
 				<?php
 				// Course summary/excerpt

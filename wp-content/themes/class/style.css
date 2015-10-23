@@ -920,11 +920,11 @@ a.rsswidget{
     font-size: 26px;
     color: #878786;
     text-decoration: none;
-
-    width: 400px;
+    max-width: 600px;
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
+    overflow: hidden;
 }
 
 .post-type-archive-course article.type-course figure{
@@ -964,7 +964,7 @@ a.rsswidget{
 .post-type-archive-course section.article-content-right{
     float: left;
     margin-left: 30px;
-    width: 400px;
+    /*width: 400px;*/
     margin-top: 15px;
 }
 
@@ -1001,7 +1001,8 @@ a.rsswidget{
 .post-type-archive-course .quick-course-info{
     position: absolute;
     bottom: 0;
-    width: 433px;
+    width: 100%;
+    max-width: 632px;
     height: 45px;
     border-top: 1px solid #e6e6e3;
     float: right;
