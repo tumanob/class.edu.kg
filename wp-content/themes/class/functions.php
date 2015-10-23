@@ -36,7 +36,7 @@ add_filter( 'widget_title', 'customize_widget_title' );
 
 function customize_widget_title( $old_title ) {
 	$title		 = explode( " ", $old_title, 2 );
-	$titleNew	 = "<span class='yellow'>" . ( isset( $title[ 0 ] ) ? $title[ 0 ] : '' ) . "</span>" . ( isset( $title[ 1 ] ) ? $title[ 1 ] : '' );
+	$titleNew	 = "<span class='blue'>" . ( isset( $title[ 0 ] ) ? $title[ 0 ] : '' ) . "</span>" . ( isset( $title[ 1 ] ) ? $title[ 1 ] : '' );
 	return $titleNew;
 }
 

@@ -891,6 +891,11 @@ h1.widget-title span.yellow{
     color: #c0c21e;
 }
 
+h1.widget-title span.blue
+{
+  color: #1cb8ea;
+}
+
 a.rsswidget{
     color: #878786
 }
@@ -3191,7 +3196,12 @@ footer .widget
 
 h3.site-title{ width:100%;}
 
-.home .course-thumbnail img{
+.course-thumbnail img{
   max-width: 250px;
 
+}
+
+#footer-navigation .textwidget
+{
+  font-size: 16px;
 }
