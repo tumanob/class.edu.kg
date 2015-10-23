@@ -3190,3 +3190,8 @@ footer .widget
 
 
 h3.site-title{ width:100%;}
+
+.home .course-thumbnail img{
+  max-width: 250px;
+
+}
