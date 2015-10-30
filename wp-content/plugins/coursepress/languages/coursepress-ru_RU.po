@@ -8,7 +8,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"PO-Revision-Date: 2015-10-30 10:32+0600\n"
+"PO-Revision-Date: 2015-10-30 10:38+0600\n"
 "Last-Translator: \n"
 "Language-Team: tumanov <support@wpmudev.org>\n"
 "X-Generator: Poedit 1.6.9\n"
@@ -858,11 +858,11 @@ msgstr ""
 #: includes/templates/popup-window-login.php:2
 #: includes/templates/popup-window-login.php:39
 msgid "Login"
-msgstr ""
+msgstr "Вход"
 
 #: coursepress.php:5342 includes/templates/popup-window-signup.php:2
 msgid "Sign Up"
-msgstr ""
+msgstr "Зарегистрироваться"
 
 #: coursepress.php:5370
 msgid "Dashboard - Courses"
@@ -5354,7 +5354,7 @@ msgstr ""
 
 #: includes/classes/class.shortcodes.php:1201
 msgid "Signup!"
-msgstr ""
+msgstr "Записаться!"
 
 #: includes/classes/class.shortcodes.php:1202
 #: themes/coursepress/content-course.php:64
