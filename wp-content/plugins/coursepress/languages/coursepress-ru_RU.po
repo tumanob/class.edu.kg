@@ -8,7 +8,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"PO-Revision-Date: 2015-10-30 10:38+0600\n"
+"PO-Revision-Date: 2015-10-30 10:42+0600\n"
 "Last-Translator: \n"
 "Language-Team: tumanov <support@wpmudev.org>\n"
 "X-Generator: Poedit 1.6.9\n"
@@ -589,7 +589,7 @@ msgstr ""
 #: includes/classes/class.shortcodes.php:4144
 #: themes/coursepress/part-contact.php:39
 msgid "All fields are required."
-msgstr ""
+msgstr "Все поля обязательны."
 
 #: coursepress.php:4858
 msgid "Username must be at least 4 characters in length"
@@ -5539,7 +5539,7 @@ msgstr ""
 
 #: includes/classes/class.shortcodes.php:4219
 msgid "Already have an account? %s%s%s!"
-msgstr ""
+msgstr "Уже зарегистрированы? %s%s%s!"
 
 #: includes/classes/class.shortcodes.php:4219
 msgid "Login to your account"
@@ -5941,19 +5941,19 @@ msgstr ""
 
 #: includes/templates/popup-window-signup.php:26
 msgid "E-mail Confirmation"
-msgstr ""
+msgstr "Повторить E-mail"
 
 #: includes/templates/popup-window-signup.php:34
 msgid "Password Confirmation"
-msgstr ""
+msgstr "Повторить пароль"
 
 #: includes/templates/popup-window-signup.php:65
 msgid "Already have an Account?"
-msgstr ""
+msgstr "Уже зарегистрированы?"
 
 #: includes/templates/popup-window-signup.php:74
 msgid "Create Account"
-msgstr ""
+msgstr "Зарегистрироваться"
 
 #: includes/templates/popup-window-success-enrollment.php:2
 msgid "Congratulations"
