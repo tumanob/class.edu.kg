@@ -8,7 +8,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"PO-Revision-Date: 2015-10-23 15:12+0600\n"
+"PO-Revision-Date: 2015-10-30 10:32+0600\n"
 "Last-Translator: \n"
 "Language-Team: tumanov <support@wpmudev.org>\n"
 "X-Generator: Poedit 1.6.9\n"
@@ -609,7 +609,7 @@ msgstr ""
 
 #: coursepress.php:4862
 msgid "Passwords mismatch."
-msgstr "Пароль"
+msgstr "Пароли не совпадают."
 
 #: coursepress.php:4863
 msgid "Password must be at least %d characters in length."
@@ -4358,7 +4358,7 @@ msgstr ""
 #: includes/templates/popup-window-signup.php:30
 #: includes/templates/student-settings.php:85
 msgid "Password"
-msgstr ""
+msgstr "Пароль"
 
 #: includes/admin-pages/student-add.php:139
 #: includes/classes/class.shortcodes.php:4201
@@ -4999,7 +4999,7 @@ msgstr "* обязательные"
 
 #: includes/classes/class.course.unit.module.php:1034
 msgid "Preview only"
-msgstr ""
+msgstr "Только для ознакомления"
 
 #: includes/classes/class.course.unit.module.php:1088
 msgid "Submit different answer"
@@ -5549,7 +5549,7 @@ msgstr ""
 #: includes/classes/class.shortcodes.php:4279
 #: includes/templates/popup-window-login.php:35
 msgid "Create an Account"
-msgstr ""
+msgstr "Зарегистрироваться"
 
 #: includes/classes/class.shortcodes.php:4238
 #: includes/templates/popup-window-signup.php:57
@@ -5558,11 +5558,11 @@ msgstr ""
 
 #: includes/classes/class.shortcodes.php:4279
 msgid "Don't have an account? %s%s%s now!"
-msgstr ""
+msgstr "Не зарегистрированы? %s%s%s Сейчас!"
 
 #: includes/classes/class.shortcodes.php:4285
 msgid "Forgot Password?"
-msgstr ""
+msgstr "Забыли пароль?"
 
 #: includes/classes/class.shortcodes.php:4358
 #: includes/classes/class.shortcodes.php:4373
